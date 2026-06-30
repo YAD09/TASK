@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile",
+      "type": "object",
+      "properties": {}
+    },
+    "Task": {
+      "title": "Task",
+      "description": "Task",
+      "type": "object",
+      "properties": {}
+    },
+    "Transaction": {
+      "title": "Transaction",
+      "description": "Transaction",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "User profiles"
+    },
+    "/tasks/{taskId}": {
+      "schema": { "$ref": "#/entities/Task" },
+      "description": "Tasks"
+    },
+    "/users/{userId}/transactions/{transactionId}": {
+      "schema": { "$ref": "#/entities/Transaction" },
+      "description": "Transactions"
+    }
+  }
+}

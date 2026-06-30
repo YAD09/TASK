@@ -1,0 +1,6 @@
+{
+  "name": "TaskLink",
+  "description": "Hyperlocal campus student productivity and earning platform with secure escrow, task matching, real-time chat, and AI-powered pricing, clarity, and safety scoring.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
